@@ -61,3 +61,12 @@ tasks.eclipse.dependsOn << {
         }
     }
 }
+
+jar{
+  manifest{
+    attributes 'Main-Class':'javaTraining.Main'
+  }
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
